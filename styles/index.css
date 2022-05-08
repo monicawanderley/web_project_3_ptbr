@@ -9,6 +9,18 @@
 /* Import da seção lead*/
 
 
+/* Import da seção intro*/
+ @import url(../blocks/intro/intro.css);
+ @import url(../blocks/intro/__title/intro__title.css);
+ @import url(../blocks/intro/__quote/intro__quote.css);
+ @import url(../blocks/intro/__author/intro__author.css);
+ @import url(../blocks/intro/__text/intro__text.css);
+/* Import da seção intro*/
 
+
+/* Import da seção photo-grid*/
+ @import url(../blocks/photo-grid/photo-grid.css);
+ @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+/* Import da seção photo-grid*/
 
 
