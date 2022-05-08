@@ -1,6 +1,14 @@
 @import url(../roots/roots.css);
 @import url(../vendor/vendor.css);
 
+/* Import da seção header*/
+ @import url(../blocks/header/header.css);
+/* Import da seção header*/
+
+/* Import da seção logo*/
+ @import url(../blocks/logo/logo.css);
+/* Import da seção logo*/
+
 /* Import da seção lead*/
  @import url(../blocks/lead/lead.css);
  @import url(../blocks/lead/__title/lead__title.css);
