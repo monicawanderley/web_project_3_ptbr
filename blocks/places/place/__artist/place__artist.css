@@ -1,0 +1,11 @@
+.place__artist {
+  margin: 0;
+  grid-area: place__artist;
+  align-self: flex-end;
+}
+  
+@media screen and (max-width: 767px) {
+  .place__artist {
+    padding: 0 18px;
+}
+}

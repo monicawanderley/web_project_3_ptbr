@@ -1,0 +1,14 @@
+.button__place{
+  margin: 0;
+  grid-area: button__place;
+}
+
+@media screen and (max-width: 767px) {
+  .button__place {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    order: 99;
+    margin: 0 16px;
+}
+}
