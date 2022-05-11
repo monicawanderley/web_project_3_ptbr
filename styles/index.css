@@ -57,7 +57,8 @@
 
 
 /* Import da seção footer*/
-@import url(../blocks/footer/footer__copyright.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/footer.css);
 /* Import da seção footer*/
 
 

@@ -4,12 +4,20 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
-position: relative;
 background-image: url(../../images/__background.png);
 background-size: cover;
 background-repeat: no-repeat;
 margin: 0 48px 0;
 height: 740px;
+opacity: 1;
+transition: 0.3s;
+z-index:0;
+}
+
+.cover:hover {
+  background: url(../../images/__background.png) rgba(42, 44, 47, 0.6);
+  background-size: cover;
+  opacity: 0.6
 }
   
 @media screen and (max-width: 970px) {
