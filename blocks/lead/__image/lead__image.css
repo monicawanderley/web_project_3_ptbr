@@ -8,11 +8,13 @@
   @media screen and (max-width: 970px) {
     .lead__image {
       margin-top: 69px;
+      max-width: 75%;
     }
   }
   
   @media screen and (max-width: 767px) {
     .lead__image {
       margin-top: 40px;
+      max-width: 50px;
     }
   }
