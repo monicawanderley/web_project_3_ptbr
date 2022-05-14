@@ -1,5 +1,5 @@
 .footer__copyright {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
+  text-align: center;
+  margin: 0;
+  padding: 24px;
+}

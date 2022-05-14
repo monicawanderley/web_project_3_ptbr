@@ -1,0 +1,12 @@
+.cover__background {
+  margin: 0 48px 0;
+  height: 740px;
+  opacity: 70%;
+  transition: 0.3s;
+  z-index: 0;
+}
+
+.cover__background:hover {
+  opacity: 20%;
+  cursor: pointer;
+}

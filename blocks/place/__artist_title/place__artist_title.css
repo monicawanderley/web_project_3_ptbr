@@ -1,0 +1,7 @@
+.place__artist_title {
+  grid-area: place__artist_title;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.21;
+  color: #aaaaaa;
+}

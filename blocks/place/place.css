@@ -1,26 +1,27 @@
 .place {
   margin-top: 80px;
+  margin-bottom: 0;
   display: grid;
-  grid-template-columns: 1fr 1.05fr;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "place__title place__artist"
     "place__image place__description"
     "button__place place__description"
     ". place__description";
-  gap: 48px 25px;
+  grid-gap: 48px 25px;
 }
-  
+
 .place:first-of-type {
   margin-top: 0;
 }
-  
+
 @media screen and (max-width: 970px) {
   .place {
     margin-top: 72px;
     column-gap: 28px;
+  }
 }
-}
-  
+
 @media screen and (max-width: 767px) {
   .place {
     display: flex;
@@ -28,5 +29,5 @@
     width: 100%;
     gap: 30px;
     margin-top: 50px;
-}
+  }
 }

@@ -1,5 +1,7 @@
 .place__artist_name {
   grid-area: place__artist-name;
+  font-weight: 400;
   font-size: 18px;
   line-height: 0.8;
+  color: white;
 }

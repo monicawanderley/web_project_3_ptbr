@@ -1,9 +1,10 @@
-.intro__author{
-  max-width: 720px;
+.intro__author {
   font-style: normal;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.42;
   text-align: right;
-  margin: 10px 0 0;
+  max-width: 720px;
+  margin: 0;
+  padding-bottom: 15px;
 }
