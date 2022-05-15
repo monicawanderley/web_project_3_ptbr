@@ -1,14 +1,34 @@
 .button_place {
-  grid-area: button__place;
+  grid-area: button_place;
   max-width: 355px;
   max-height: 48px;
 }
 
-@media screen and (max-width: 767px) {
-  .button__place {
-    font-weight: 600;
-    font-size: 14px;
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .button_place {
     line-height: 1.21;
-    margin: 0 16px;
+    margin: 0 auto 0;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .button_place {
+    font-size: 16px;
+    max-width: 322px;
+    max-height: 48px;
+    line-height: 1.21;
+    margin: 0 auto 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .button_place {
+    font-size: 14px;
+    font-style: normal;
+    max-width: 288px;
+    max-height: 48px;
+    line-height: 1.21;
+    margin: 0 16px 0;
+    padding: 15px 21px 16px 22px;
   }
 }

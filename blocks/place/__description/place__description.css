@@ -6,17 +6,25 @@
   flex-direction: column;
   gap: 25px;
 }
-  
-@media screen and (max-width: 970px) {
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
   .place__description {
-    grid-area: place__description;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .place__description {
+    margin: 0 auto;
     font-size: 16px;
-    line-height: 1.63;
+    width: 90%;
+  }
 }
-}
-  
-@media screen and (max-width: 767px) {
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
   .place__description {
-   padding: 0 18px;
-}
+    margin: 5px auto 10px;
+    font-size: 16px;
+    width: 90%;
+  }
 }
