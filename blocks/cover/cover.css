@@ -6,8 +6,9 @@
     url("../../images/__background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  box-sizing: border-box;
   margin: 92px 48px 132px;
-  height: 740px;
+  height: 784px;
 }
 
 .cover:hover {
