@@ -3,3 +3,21 @@
   max-width: 151px;
   max-height: 22px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .button_cover {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .button_cover {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .button_cover {
+    margin: 0 auto 45px;
+  }
+}

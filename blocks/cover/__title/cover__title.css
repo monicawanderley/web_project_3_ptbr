@@ -4,15 +4,30 @@
   line-height: 1.05;
   color: #fffdfd;
   margin: 0 0 32px;
-  z-index: 2;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 769px) and (max-width: 1279px) {
   .cover__title {
-    font-weight: 900;
-    font-size: 32px;
     line-height: 1.09;
-    margin: 0 0 32px;
-    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .cover__title {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.09;
+    color: #fffdfd;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+  .cover__title {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.09;
+    color: #fffdfd;
+    margin: 0;
   }
 }
