@@ -6,13 +6,13 @@
   padding: 0;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
   .cover__text {
     margin: 0 auto 32px;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 500px) and (max-width: 767px) {
   .cover__text {
     font-size: 14px;
     line-height: 1.14;

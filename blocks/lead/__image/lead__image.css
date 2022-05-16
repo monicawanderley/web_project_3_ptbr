@@ -1,12 +1,12 @@
 .lead__image {
-  margin: 0 0 92px;
+  max-width: 100%;
+  margin-top: 51px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .lead__image {
-    max-height: none;
-    max-width: fit-content;
     margin-bottom: 88px;
+    max-width: 100%;
   }
 }
 
@@ -14,14 +14,14 @@
   .lead__image {
     max-height: none;
     margin-bottom: 66px;
-    max-width: fit-content;
+    max-width: 100%;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .lead__image {
     max-height: none;
-    max-width: fit-content;
     margin-bottom: 44px;
+    max-width: 100%;
   }
 }
