@@ -3,7 +3,7 @@
   grid-area: place__title;
   font-size: 72px;
   line-height: 1.06;
-  max-width: 460px;
+  width: 460px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {

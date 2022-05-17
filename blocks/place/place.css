@@ -7,7 +7,7 @@
     "place__image place__description"
     "button_place place__description"
     ". place__description";
-  grid-gap: 48px 25px;
+  grid-gap: 48px 40px;
 }
 
 .place:first-of-type {
@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .place {
-    grid-gap: 48px 25px;
+    grid-gap: 48px 40px;
     grid-column-gap: 48px;
   }
 }
@@ -26,7 +26,7 @@
     display: grid;
     margin: 0 0 75px;
     grid-template-columns: 1fr;
-    grid-gap: 48px 25px;
+    grid-gap: 48px 40px;
     grid-template-areas:
       "place__title"
       "place__artist"
