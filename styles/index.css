@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
-@import url(../roots/roots.css);
 @import url(../blocks/page/page.css);
+@import url(../vendor/fonts/fonts.css);
 
 /* Import da seção header*/
 @import url(../blocks/header/header.css);
@@ -39,7 +38,6 @@
 
 /* Import da seção places*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/place/place.css);
 /* Import da seção places*/
 
 /* Import da seção place*/

@@ -1,5 +1,5 @@
-.place__artist_title {
-  grid-area: place__artist_title;
+.place__artist-title {
+  grid-area: place__artist-title;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.21;
@@ -7,19 +7,19 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .place__artist_title {
+  .place__artist-title {
     margin: 0 auto 8px;
   }
 }
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
-  .place__artist_title {
+  .place__artist-title {
     margin: 0 18px 8px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 499px) {
-  .place__artist_title {
+  .place__artist-title {
     margin: 0 16px 8px;
   }
 }
