@@ -3,21 +3,15 @@
   grid-area: place__image;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (max-width: 1100px) {
   .place__image {
     width: 100%;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 767px) {
-  .place__image {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 499px) {
+@media screen and (max-width: 599px) {
   .place__image {
     min-width: 320px;
-    width: 100px;
+    width: 100%;
   }
 }

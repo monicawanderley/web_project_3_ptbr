@@ -14,32 +14,14 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (max-width: 1100px) {
   .place {
     grid-gap: 48px 40px;
     grid-column-gap: 48px;
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 767px) {
-  .place {
-    display: grid;
-    margin: 0 0 75px;
-    grid-template-columns: 1fr;
-    grid-gap: 48px 40px;
-    grid-template-areas:
-      "place__title"
-      "place__artist"
-      "place__image"
-      "place__description"
-      "place__description"
-      "place__description"
-      "button_place";
-    grid-column-gap: 48px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 499px) {
+@media screen and (max-width: 599px) {
   .place {
     display: grid;
     margin: 0 0 50px;

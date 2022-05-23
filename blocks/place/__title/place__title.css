@@ -5,7 +5,7 @@
   line-height: 1.06;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (max-width: 1100px) {
   .place__title {
     margin: 0;
     grid-area: place__title;
@@ -14,17 +14,7 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 767px) {
-  .place__title {
-    font-size: 42px;
-    line-height: 1.09;
-    grid-area: place__title;
-    padding: 50px 16px 0px;
-    margin: 0;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 499px) {
+@media screen and (max-width: 599px) {
   .place__title {
     font-size: 32px;
     grid-area: place__title;
