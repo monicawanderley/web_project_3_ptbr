@@ -1,6 +1,6 @@
 @import url(../vendor/normalize/normalize.css);
-@import url(../blocks/page/page.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
 
 /* Import da seção header*/
 @import url(../blocks/header/header.css);
@@ -48,7 +48,7 @@
 @import url(../blocks/place/__artist/place__artist.css);
 @import url(../blocks/place/__artist-name/place__artist-name.css);
 @import url(../blocks/place/__description/place__description.css);
-@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__text/place__text..css);
 /* Import da seção place*/
 
 /* Import da seção cover*/
