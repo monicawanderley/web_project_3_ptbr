@@ -29,4 +29,8 @@
       "place__description"
       "button_place";
   }
+
+  .place:first-of-type {
+    margin: 0 auto;
+  }
 }
