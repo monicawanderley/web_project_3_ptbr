@@ -6,7 +6,7 @@
     "place__image place__description"
     "button_place place__description"
     ". place__description";
-  margin: 0 0 52px;
+  margin: 0 0 80px;
   grid-gap: 48px 40px;
 }
 
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 599px) {
   .place {
-    margin: 15px 0 30px;
+    margin: 15px 0 50px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -36,7 +36,7 @@
   }
 
   .place:first-of-type {
-    margin: 15px 0 30px;
+    margin: 0 0 50px;
   }
 
   .place:last-of-type {

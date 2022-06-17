@@ -1,17 +1,19 @@
 .intro {
   color: #ffffff;
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1100px) {
   .intro {
     width: 93%;
+    margin: 0 auto 64px;
   }
 }
 
 @media screen and (max-width: 599px) {
   .intro {
     width: 93%;
+    margin: 0 auto 38px;
   }
 }

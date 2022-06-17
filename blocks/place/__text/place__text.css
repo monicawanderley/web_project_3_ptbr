@@ -2,7 +2,7 @@
   font-size: 18px;
   line-height: 1.63;
   font-weight: 400;
-  margin: 25px 0;
+  margin: 25px 0 0;
 }
 
 .place:first-of-type {
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1100px) {
   .place__text {
-    margin: 10px 0;
+    margin: 12px 0 0;
     font-size: 16px;
   }
 
@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 599px) {
   .place__text {
-    margin: 10px 0;
+    margin: 10px 0 0;
     font-size: 16px;
   }
 
