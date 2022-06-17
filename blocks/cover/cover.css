@@ -7,7 +7,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  margin: 0 48px 0;
+  margin: 92px 48px 0;
   height: 740px;
   line-height: 0;
 }
@@ -21,18 +21,12 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 1100px) {
-  .cover {
-    margin: 0;
-  }
-}
-
 @media screen and (max-width: 599px) {
   .cover {
     min-width: 320px;
     width: 100%;
     min-height: 254px;
     height: 100%;
-    margin: 0;
+    margin: 64px auto;
   }
 }

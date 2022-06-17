@@ -6,23 +6,18 @@
     "place__image place__description"
     "button_place place__description"
     ". place__description";
-  margin: 0 0 80px;
+  margin: 0 auto 80px;
   grid-gap: 48px 40px;
 }
 
-@media screen and (max-width: 1100px) {
-  .place:first-of-type {
-    margin: 0 0 52px;
-  }
-
-  .place:last-of-type {
-    margin: 0 0 92px;
-  }
+.place:last-of-type {
+  margin: 0;
 }
 
 @media screen and (max-width: 599px) {
   .place {
-    margin: 15px 0 50px;
+    margin: 50px auto;
+    grid-gap: 30px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -33,13 +28,5 @@
       "place__description"
       "place__description"
       "button_place";
-  }
-
-  .place:first-of-type {
-    margin: 0 0 50px;
-  }
-
-  .place:last-of-type {
-    margin: 0 0 64px;
   }
 }
