@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1100px) {
   .place__description:first-of-type {
-    margin: 0 0 52px;
+    padding-bottom: 0 0 52px;
   }
 }
 
