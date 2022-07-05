@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 599px) {
   .intro__author {
-    margin: 10 0 18px;
+    margin: 10px 0 18px;
     padding: 0;
   }
 }

@@ -4,7 +4,11 @@
   grid-template-areas:
     "place__title place__artist"
     "place__image place__description"
-    "button_place place__description";
+    "button_place place__description"
+    ". place__description";
+  /* Olá, Júlia! Em conversa com o tutor ele me explicou que é importante deixar essa último linha porque caso contrário
+    o botão pode desconfigurar; e, ao ajustar a configuração do último place e revisar os blocos, acredito que eu dessa
+    forma eu tenha resolvido o espaçamento extra*/
   margin: 0 auto 80px;
   grid-gap: 48px 40px;
 }
@@ -21,6 +25,10 @@
 
   .place:first-of-type {
     margin: 0 auto 50px;
+  }
+
+  .place:last-of-type {
+    margin: 50px 0;
   }
 }
 

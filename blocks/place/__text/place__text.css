@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 
-.place:last-of-type {
+.place__text:last-of-type {
   margin: 0;
 }
 
@@ -14,7 +14,7 @@
     font-size: 16px;
   }
 
-  .place:last-of-type {
+  .place__text:last-of-type {
     margin: 0;
   }
 }
@@ -25,7 +25,7 @@
     font-size: 16px;
   }
 
-  .place:last-of-type {
+  .place__text:last-of-type {
     margin: 0;
   }
 }
